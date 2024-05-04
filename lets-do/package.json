@@ -1,0 +1,17 @@
+{
+  "name": "lets-do",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:tw": "tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch --minify",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/bin.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style/output.css" />
+    <title>Lets Do</title>
+  </head>
+  <body
+    class="max-w-lg mx-auto min-h-screen flex justify-center items-center text-gray-700"
+  >
+    <div class="w-full shadow-lg rounded-b-md">
+      <h1
+        class="bg-gray-800 px-5 py-2 text-center my-0.5 rounded-t-md text-gray-100"
+      >
+        Lets Do
+      </h1>
+      <section class="bg-gray-800 text-gray-100 p-5 rounded-b-md">
+        <div class="mb-6 flex w-full">
+          <input
+            type="text"
+            placeholder="What needs to be done..?"
+            class="rounded-l-md flex-1"
+          />
+          <button class="rounded-r-md px-5">Add</button>
+        </div>
+        <div>
+          <h2 class="font-semibold">Your Todos</h2>
+          <ul>
+            <li class="flex py-1 justify-between items-center">
+              <div
+                class="border-gray-300 border flex-1 px-4 py-2 rounded-md mr-4"
+              >
+                <input type="checkbox" checked class="peer mr-2" />
+                <span
+                  class="peer-checked:line-through peer-checked:text-gray-500"
+                  >Do something to live long 🧬.</span
+                >
+              </div>
+              <div>
+                <img
+                  class="border p-2.5 cursor-pointer rounded-md border-gray-300 hover:bg-gray-900"
+                  src="./public/bin.svg"
+                  alt="delete"
+                  width="40"
+                />
+              </div>
+            </li>
+            <!-- Todo: remove li's -->
+            <li class="flex py-1 justify-between items-center">
+              <div
+                class="border-gray-300 border flex-1 px-4 py-2 rounded-md mr-4"
+              >
+                <input type="checkbox" class="peer mr-2" />
+                <span
+                  class="peer-checked:line-through peer-checked:text-gray-500"
+                  >Don't do nothing 😜.</span
+                >
+              </div>
+              <div>
+                <img
+                  class="border p-2.5 cursor-pointer rounded-md border-gray-300 hover:bg-gray-900"
+                  src="./public/bin.svg"
+                  alt="delete"
+                  width="40"
+                />
+              </div>
+            </li>
+            <li class="flex py-1 justify-between items-center">
+              <div
+                class="border-gray-300 border flex-1 px-4 py-2 rounded-md mr-4"
+              >
+                <input type="checkbox" class="peer mr-2" />
+                <span
+                  class="peer-checked:line-through peer-checked:text-gray-500"
+                  >Do something 😝.</span
+                >
+              </div>
+              <div>
+                <img
+                  class="border p-2.5 cursor-pointer rounded-md border-gray-300 hover:bg-gray-900"
+                  src="./public/bin.svg"
+                  alt="delete"
+                  width="40"
+                />
+              </div>
+            </li>
+            <li class="flex py-1 justify-between items-center">
+              <div
+                class="border-gray-300 border flex-1 px-4 py-2 rounded-md mr-4"
+              >
+                <input type="checkbox" class="peer mr-2" />
+                <span
+                  class="peer-checked:line-through peer-checked:text-gray-500"
+                  >Don't do anything 🥳.</span
+                >
+              </div>
+              <div>
+                <img
+                  class="border p-2.5 cursor-pointer rounded-md border-gray-300 hover:bg-gray-900"
+                  src="./public/bin.svg"
+                  alt="delete"
+                  width="40"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

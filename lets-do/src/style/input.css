@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-black
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+
+h2 {
+  @apply text-xl my-2;
+}
+
+input {
+  @apply border border-gray-300 px-2 py-1 bg-gray-700;
+}
+
+button {
+  @apply bg-gray-200 text-gray-800 px-2 py-1;
+}
